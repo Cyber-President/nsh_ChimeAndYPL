@@ -5,7 +5,7 @@ import pyautogui
 import time
 
 # Youtube再生リスト
-url = ""
+url = "YOUR YOUTUBE PLAYLIST URL"
 
 
 def play():
@@ -15,7 +15,7 @@ def play():
 
     # 拡張機能のCRXパス、ChromeDriverの絶対パスを指定しChromeを起動
     options.add_extension('ChromeExtensions/2.0.0_0.crx')
-    driver = Chrome('/Users/commuteta76/Documents/AnnounceSystem/ChromeExtensions/chromedriver', options=options)
+    driver = Chrome('YOUR LOCATION', options=options)
 
     # ウィンドウを開く
     driver.maximize_window()
